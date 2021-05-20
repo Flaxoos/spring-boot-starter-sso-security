@@ -1,0 +1,105 @@
+{"groups": [
+  {
+    "name": "sso",
+    "type": "com.upday.security.sso.configuration.SsoProperties",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  }
+],"properties": [
+  {
+    "name": "sso.authenticated-ant-patterns",
+    "type": "java.util.List<java.util.String>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.authenticated-requests",
+    "type": "java.util.List<com.upday.security.sso.configuration.SsoProperties.Request>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.disable-for-ant-patterns",
+    "type": "java.util.List<java.util.String>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.disableForRequests",
+    "type": "java.util.List<com.upday.security.sso.configuration.SsoProperties.Request>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.unauthenticatedAntPatterns",
+    "type": "java.util.List<java.util.String>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.unauthenticatedRequests",
+    "type": "java.util.List<com.upday.security.sso.configuration.SsoProperties.Request>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.firebase",
+    "type": "com.upday.security.sso.configuration.SsoProperties.SsoProvider.Firebase",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.authenticated-requests.method",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.authenticated-requests.path",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.authenticated-requests.param",
+    "type": "java.util.List<java.util.String>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.disableForRequests.method",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.disableForRequests.path",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.disableForRequests.param",
+    "type": "java.util.List<java.util.String>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.unauthenticatedRequests.method",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.unauthenticatedRequests.path",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.unauthenticatedRequests.param",
+    "type": "java.util.List<java.util.String>",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.firebase.enabled",
+    "type": "java.util.Boolean",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.firebase.databaseUrl",
+    "type": "java.util.String",
+    "description": "The request path",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  },
+  {
+    "name": "sso.firebase.privateKeyFile",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+  }
+],"hints": [
+]}
