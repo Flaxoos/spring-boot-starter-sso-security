@@ -11,4 +11,4 @@ All requests that are not sso disabled in the application properties must includ
 For firebase, the private key file must be stored in `src/main/resources/firebase/private-key.json` or in any other place, defined in application properties
 
 Here's a diagram of the flow:
-!["Flow Diagram"](./etc/diagrams/flow-diagram.pdf)
+!["Flow Diagram"](./etc/diagrams/flow-diagram.jpg)
