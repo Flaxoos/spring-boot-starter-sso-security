@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse
 abstract class SsoRequestFilter(
     private val ssoProperties: SsoProperties,
     private val ssoAuthenticationTokenProvider: SsoAuthenticationTokenProvider<*>,
-    private val authHeaderName: String
+    private val authHeaderName: String?
 ) : OncePerRequestFilter() {
 
     /**
@@ -39,7 +39,7 @@ abstract class SsoRequestFilter(
         filterChain: FilterChain
     ) {
         val xAuth = request.getHeader(authHeaderName) ?: throw MissingHeaderException(
-            authHeaderName
+            authHeaderName?:throw IllegalStateException("Firebase not configured in application properties")
         )
         try {
             SecurityContextHolder.getContext().authentication =

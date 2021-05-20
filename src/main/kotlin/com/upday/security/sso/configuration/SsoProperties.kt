@@ -60,10 +60,12 @@ data class SsoProperties(
         data class Firebase(
             override val enabled: Boolean = true,
             val databaseUrl: String,
-            val privateKeyFile: String = DEFAULT_FIREBASE_KEY_LOCATION
+            val privateKeyFile: String = DEFAULT_FIREBASE_KEY_LOCATION,
+            val authorizationHeaderName: String = DEFAULT_FIREBASE_AUTH_HEADER_NAME
         ) : SsoProvider(enabled) {
             companion object {
                 private const val DEFAULT_FIREBASE_KEY_LOCATION = "/firebase/private-key.json"
+                private const val DEFAULT_FIREBASE_AUTH_HEADER_NAME = "X-Authorization-Firebase"
             }
         }
     }

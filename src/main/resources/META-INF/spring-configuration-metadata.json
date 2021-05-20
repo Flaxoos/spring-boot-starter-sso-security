@@ -88,18 +88,23 @@
   {
     "name": "sso.firebase.enabled",
     "type": "java.util.Boolean",
-    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties.SsoProvider.Firebase"
   },
   {
     "name": "sso.firebase.databaseUrl",
     "type": "java.util.String",
     "description": "The request path",
-    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties.SsoProvider.Firebase"
   },
   {
     "name": "sso.firebase.privateKeyFile",
     "type": "java.util.String",
-    "sourceType": "com.upday.security.sso.configuration.SsoProperties"
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties.SsoProvider.Firebase"
+  },
+  {
+    "name": "sso.firebase.authorizationHeaderName",
+    "type": "java.util.String",
+    "sourceType": "com.upday.security.sso.configuration.SsoProperties.SsoProvider.Firebase"
   }
 ],"hints": [
 ]}

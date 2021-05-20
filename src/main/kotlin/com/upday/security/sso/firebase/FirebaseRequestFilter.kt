@@ -19,5 +19,5 @@ class FirebaseRequestFilter(
 ) : SsoRequestFilter(
     ssoProperties,
     firebaseAuthenticationTokenProvider,
-    "X-Authorization-Firebase"
+    ssoProperties.firebase?.authorizationHeaderName
 )
